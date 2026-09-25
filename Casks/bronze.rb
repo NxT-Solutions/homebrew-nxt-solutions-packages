@@ -2,13 +2,13 @@ cask "bronze" do
   version "0.1.0"
 
   on_arm do
-    sha256 "e8d9d8352bff479f79758b6d6f87b08ec363ca248f22b126efdab584609ff64e"
+    sha256 "7001dfdd5054365dffceb9449d3807786c831149672a38cdde37d341dc4d1aca"
 
     url "https://github.com/NxT-Solutions/Bronze/releases/download/v0.1.0/bronze-macos-arm64.pkg"
   end
 
   on_intel do
-    sha256 "e5bb0c80cd9a8b0e8782a6772b8493c1b44570e1149f9e01801ffa5c570f8287"
+    sha256 "63d567fa464c6b2f4fd32feed35f0622dd7e444648d9562e612a29f4fb38cefa"
 
     url "https://github.com/NxT-Solutions/Bronze/releases/download/v0.1.0/bronze-macos-x86_64.pkg"
   end
