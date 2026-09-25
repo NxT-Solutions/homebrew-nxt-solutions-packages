@@ -1,23 +1,23 @@
 cask "bronze" do
-  version "0.1.2"
+  version "0.1.0"
 
   on_arm do
-    sha256 "2a8c61637e5c3833e2254ec92fd1fdcf24ba15616a57114e693e185fe1d3b028"
+    sha256 "7001dfdd5054365dffceb9449d3807786c831149672a38cdde37d341dc4d1aca"
 
-    url "https://github.com/NxT-Solutions/Bronze/releases/download/v0.1.2/bronze-macos-arm64.pkg"
+    url "https://github.com/NxT-Solutions/Bronze/releases/download/v0.1.0/bronze-macos-arm64.pkg"
   end
 
   on_intel do
-    sha256 "6d454718d56f74199ea111aa1ac55e13c3b2a785c72fdea5bb5223041dab223b"
+    sha256 "63d567fa464c6b2f4fd32feed35f0622dd7e444648d9562e612a29f4fb38cefa"
 
-    url "https://github.com/NxT-Solutions/Bronze/releases/download/v0.1.2/bronze-macos-x86_64.pkg"
+    url "https://github.com/NxT-Solutions/Bronze/releases/download/v0.1.0/bronze-macos-x86_64.pkg"
   end
 
   name "Bronze"
   desc "Local-first macOS selection-to-action queue"
   homepage "https://github.com/NxT-Solutions/Bronze"
 
-  depends_on macos: :sonoma
+  depends_on macos: ">= :sonoma"
 
   on_arm do
     pkg "bronze-macos-arm64.pkg"
