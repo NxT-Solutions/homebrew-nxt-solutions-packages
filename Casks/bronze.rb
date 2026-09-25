@@ -17,7 +17,7 @@ cask "bronze" do
   desc "Local-first macOS selection-to-action queue"
   homepage "https://github.com/NxT-Solutions/Bronze"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   on_arm do
     pkg "bronze-macos-arm64.pkg"
